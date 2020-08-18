@@ -41,26 +41,26 @@ body{
 
 /*SECTIONS*/
 section {
-    height: 100px;
+    height: 130px;
     display: flex;
     justify-content: space-evenly;
-    padding: 0 10px;
+    padding: 0 5px;
     align-items: center;
 }
 
 section h2 {
      color: #383838;
-     font-size: 20px;
+     font-size: 35px;
      font-weight: 400;
      margin-bottom: 5px;
 }
 
 section img {
-    height: 40%;
+    height: 70%;
 }
 
 section a {
-    height: 65%;
+    height: 60%;
     margin-top: 40px;
     margin-left: 35px;
 }
