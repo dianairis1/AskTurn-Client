@@ -41,7 +41,7 @@ body{
 
 /*SECTIONS*/
 section {
-    height: 130px;
+    height: 200px;
     display: flex;
     justify-content: space-evenly;
     padding: 0 5px;
@@ -56,11 +56,11 @@ section h2 {
 }
 
 section img {
-    height: 70%;
+    height: 50%;
 }
 
 section a {
-    height: 60%;
+    height: 50%;
     margin-top: 40px;
     margin-left: 35px;
 }
