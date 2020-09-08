@@ -5,17 +5,20 @@ import fish from './icons/fish.svg';
 import cheese from './icons/cheese.svg';
 import meat from './icons/meat.svg';
 import wine from './icons/wine.svg';
+import Search from './Search/Search';
+
 
 
 
 export default function Shops() {
     return (
         <>
-        <Shop name="TIENDA 1" icon={chickens}/>
-        <Shop name="TIENDA 2" icon={fish}/>
-        <Shop name="TIENDA 3" icon={cheese}/>
-        <Shop name="TIENDA 4" icon={meat}/>
-        <Shop name="TIENDA 5" icon={wine}/>
+        <Search/>
+        <Shop shopId="1" icon={chickens}/>
+        <Shop shopId="2" icon={fish}/>
+        <Shop shopId="3" icon={cheese}/>
+        <Shop shopId="4" icon={meat}/>
+        <Shop shopId="5" icon={wine}/>
         </>
     )
 }

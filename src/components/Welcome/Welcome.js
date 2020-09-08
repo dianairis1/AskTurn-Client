@@ -1,12 +1,17 @@
-import React from 'react'
-import logo from './AskTurnLogo.svg';
-import './welcome.css';
-import '../css/global.css';
+import React, { useEffect } from "react";
+import logo from "./AskTurnLogo.svg";
+import "./welcome.css";
+import "../css/global.css";
 
-export default function Welcome() {
-    return (
-        <div className="logo">
-            <img src={logo}></img>
-        </div>
-    )
+export default function Welcome({history}) {
+  useEffect(() => {
+
+    setTimeout(()  => {history.push("/shops")}, 3000)
+    });
+
+  return (
+    <div className="logo">
+      <img src={logo}></img>
+    </div>
+  );
 }
